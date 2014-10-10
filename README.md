@@ -1,0 +1,4 @@
+ci
+==
+
+continuous integration prototype
