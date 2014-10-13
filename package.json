@@ -1,9 +1,9 @@
 {
   "name": "myNode",
-  "version": "0.0.0",
+  "version": "0.0.0-3",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./myHttpServer.js"
   },
   "dependencies": {
     "express": "~4.9.0",
@@ -12,5 +12,9 @@
     "morgan": "~1.3.0",
     "serve-favicon": "~2.1.3",
     "debug": "~2.0.0"
+  },
+  "subdomain": "ybiran-myHttpServer",
+  "engines": {
+    "node": "0.10.x"
   }
 }
