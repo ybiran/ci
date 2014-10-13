@@ -1,0 +1,7 @@
+---
+# this is a manifest
+applications:
+- name: myHttpServer
+  command: node myHttpServer.js
+  memory: 128M
+  host: myHttpServerHost
