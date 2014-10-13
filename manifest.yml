@@ -4,4 +4,4 @@ applications:
 - name: myHttpServer
   command: node myHttpServer.js
   memory: 128M
-  host: myHttpServerHost
+  host: yahav
