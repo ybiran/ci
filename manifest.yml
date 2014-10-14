@@ -1,5 +1,4 @@
 ---
-# this is a manifest
 applications:
 - name: myHttpServer
   command: node myHttpServer.js
