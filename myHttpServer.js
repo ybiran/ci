@@ -3,7 +3,7 @@ var os = require('os');
 var date = require('moment');
 var dns = require('dns');
 var port = process.env.VCAP_APP_PORT;
-var ver = 'Ver A/B 1.6';
+var ver = 'Ver A/B 1.7';
 var addr;
 dns.lookup(os.hostname(),4,function (err, addr, fam) {
 var platform = os.hostname()+' '+os.type()+' '+os.arch()+' '+addr+' '+ver+' '+ date().format();
