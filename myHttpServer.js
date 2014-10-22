@@ -3,7 +3,7 @@ var os = require('os');
 var dns = require('dns');
 var date = require('moment');
 var port = process.env.VCAP_APP_PORT;
-var ver = 'Igal is the Man Ver 1.3';
+var ver = 'Ver 1.3';
 //var port = 1239;
 var addr;
 dns.lookup(os.hostname(),4,function (err, addr, fam) {
